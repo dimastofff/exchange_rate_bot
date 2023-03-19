@@ -1,0 +1,1 @@
+from .exchange_rate_fetcher import exchange_rate_fetcher

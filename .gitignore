@@ -1,0 +1,26 @@
+# Python artifacts
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+env/
+.virtualenv/
+
+# .env file (contains sensitive data like API keys)
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.idea

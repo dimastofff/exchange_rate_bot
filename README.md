@@ -1,1 +1,1 @@
-# exchange_rate_bot
+# Exchange Rate Bot

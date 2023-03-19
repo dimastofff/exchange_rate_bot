@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  exchange_rate_bot:
+    build: .
+    container_name: exchange_rate_bot
+    restart: always
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - ADMINS=${ADMINS}
+    volumes:
+      - ~/exchange_rate_bot_usage:/app/logs
